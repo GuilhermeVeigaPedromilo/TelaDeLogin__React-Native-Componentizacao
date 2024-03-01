@@ -1,7 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
-import styles from '../css/stylelogin';
+import styles from '../css/stylelogin'; // Importando styles, do folder CSS
 
 function LoginInput() {
 
@@ -16,8 +16,8 @@ function LoginInput() {
                 placeholder='Digite sua senha'
                 style={styles.input}
             />
-        </View>
-    )
+        </View>// Inputs do submenu do Login, componente LoginInput
+    );
 }
 export default LoginInput;
 

@@ -5,11 +5,11 @@ import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } fro
 function LoginImage() {
 
     return (
-        <View>
+        <View style={{alignItems: 'center',}} >
             <Image
                 style={{ width: 100, height: 25, marginTop: 30, alignItems: 'center' }}
                 source={require('../assets/images/senai.png')} />
-        </View>
-    )
+        </View> //Imagem SENAI, componente
+    );
 }
 export default LoginImage;

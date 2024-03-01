@@ -1,13 +1,10 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
-import LoginImageBackground from '../components/LoginImageBackground';
+import LoginImageBackground from '../components/LoginImageBackground'; //Aqui está importando o componente LoginImageBackground 
 
 function Login() { // Alteração aqui: export default function Login()
 
   return (
-        <LoginImageBackground />
-
+        <LoginImageBackground /> //Aqui está renderizando o componente LoginImageBackground na página Login
   );
 }
 

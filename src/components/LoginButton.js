@@ -16,7 +16,7 @@ function LoginButton() {
                 onPress={button}
                 color='black'
             />
-        </View>
-    )
+        </View> //Componente Buttonn
+    );
 }
 export default LoginButton;

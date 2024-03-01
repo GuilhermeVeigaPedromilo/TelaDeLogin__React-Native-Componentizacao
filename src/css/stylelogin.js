@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
           padding: 2,
           fontSize: 10,
           width: 200,
+          gap: 10,
         },
 
         submenu: {
@@ -21,6 +22,7 @@ const styles = StyleSheet.create({
           alignItems: 'center',
           gap: 25,
           opacity: 0.7,
+          marginTop: 200,
         },
 
         body: {
