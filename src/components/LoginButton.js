@@ -1,6 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, ImageBackground, Button } from 'react-native';
+import { TouchableOpacity } from 'react-native-web';
 
 function LoginButton() {
 
@@ -10,12 +11,9 @@ function LoginButton() {
 
     return (
         <View>
-            <Button
-                placeholder='Login'
-                title='Login'
-                onPress={button}
-                color='black'
-            />
+            <TouchableOpacity onPress={button} style={{backgroundColor: 'black', padding: 5, borderRadius: 15, alignItems: 'center',}} >
+                <Text style={{color: 'white'}} >Login</Text>
+            </TouchableOpacity>
         </View> //Componente Buttonn
     );
 }
